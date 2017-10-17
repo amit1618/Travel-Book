@@ -1,0 +1,19 @@
+.main {
+  padding: 16px;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+#wrapper{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+
+}
+#c1, #c3 {
+    width: 20%;
+}
+#c2 {
+    width: 60%;
+}
