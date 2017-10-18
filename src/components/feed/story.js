@@ -6,7 +6,7 @@ export default class Story extends React.Component {
     return (
       <div class="panel panel-default">
         <img class="img-circle img-thumbnail" src="https:\/\/avatars2.githubusercontent.com/u/6264133?s=460&v=4" width="64" height="64" alt="Avatar" />
-        <span class="label label-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><b>Amit Kumar</b></span>
+        &nbsp;&nbsp;<span class="label label-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><b>Amit Kumar</b></span>
         <div class="panel-heading">
           <span>#Gokarna</span><span>#Chilling</span>
         </div>

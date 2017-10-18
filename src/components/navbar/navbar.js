@@ -32,7 +32,7 @@ export default class NavBar extends React.Component {
     </form>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li class="loginPadding"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
     </div>
 </nav>
