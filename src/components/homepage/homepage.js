@@ -1,6 +1,7 @@
 import React from 'react'
 import './homepage.css'
 import Story from '../feed/story.js'
+import Ad from '../ads/ad.js'
 
 export default class HomePage extends React.Component {
   render () {
@@ -13,7 +14,9 @@ export default class HomePage extends React.Component {
           <Story />
            <Story />
           </div>
-          <div id="c3"></div>
+          <div id="c3">
+          <Ad />
+          </div>
         </div>
       </div>
     )
