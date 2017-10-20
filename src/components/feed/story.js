@@ -8,7 +8,7 @@ export default class Story extends React.Component {
         <img class="img-circle img-thumbnail" src="https:\/\/avatars2.githubusercontent.com/u/6264133?s=460&v=4" width="64" height="64" alt="Avatar" />
         &nbsp;&nbsp;<span class="label label-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><b>Amit Kumar</b></span>
         <div class="panel-heading">
-          <span>#Gokarna</span><span>#Chilling</span>
+          <span class="spanColour">#Gokarna</span><span class="spanColour">#Chilling</span>
         </div>
         <div class="panel-image">
           <img alt="test" src="http:\/\/www.holidify.com/images/cmsuploads/compressed/Gokarna_Rinal_20170820185203.jpg" class="panel-image-preview" />

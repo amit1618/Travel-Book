@@ -4,7 +4,10 @@
 .panel-image > h4, p {
     padding: 5px 10px 0px; 
 }
-
+.spanColour
+{
+  color: black;
+}
 .panel-image img.panel-image-preview {
     width: 100%;
 	border-radius: 4px 4px 0px 0px;
