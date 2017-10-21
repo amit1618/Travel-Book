@@ -28,7 +28,7 @@ export default class RatingsAndReviews extends React.Component {
               </div>
             </div>
           </div>       
-        <div class="col-sm-4">
+        <div class="col-sm-4" align="center">
           <i>Not a bad Place</i> 
         </div>
       </div>

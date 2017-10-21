@@ -8,23 +8,8 @@ export default class Overview extends React.Component {
               <div class="panel panel-default">
                 <div class="panel-heading">
                   Overview
-                  <div class="pull-right">
-                    <span class="label label-success">
-                      Last Visited: <em>16 Oct,2017</em>
-                    </span>
-                    &nbsp;
-                    <button type="button" class="btn btn-warning btn-xs pull-right">
-                      <span class="glyphicon glyphicon-plus"></span>
-                    </button>
-                  </div>   
                 </div>
                 <div class="panel-body">
-                  <div class="col-xs-12">
-                    <p class="text-info">Nilay has been there 5 times</p>
-                  </div>
-                  <div class="col-xs-12">
-                    <p class="text-danger">Amit thinks this place sucks</p>
-                  </div>
                   <div class="col-xs-12">
                     <p class="objText"> <span class="glyphicon glyphicon-heart glyphForInfo"></span> <span class="objHeading">Popularity: </span>
                     <span>35% in India. 12% in World</span> </p>
@@ -36,6 +21,12 @@ export default class Overview extends React.Component {
                   <div class="col-xs-12">
                     <p class="objText"> <span class="glyphicon glyphicon-time glyphForInfo"></span> 
                     <span>Ideal duration: </span> 2-3 days</p>
+                  </div>
+                  <div class="col-xs-12 nopaddingLeft">
+                    <p class="objText"> <span class="glyphicon glyphicon-plane glyphForInfo"></span>
+                       <span class="objHeading">Nearest Airport: </span>
+                         Goa
+                   </p>
                   </div>
                   <div class="col-xs-12 nopaddingLeft">            
                     <p class="objText"> <span class="glyphicon glyphicon-calendar glyphForInfo"></span> 

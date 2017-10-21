@@ -2,10 +2,14 @@
 {
 	width:100%;
 }
+#reviewSection
+{
+  margin-top: 10px;
+}
 .carousel .item{
     height: 400px;
 }
-.reviewForm
+.resize: none;
 {
   resize: none;
 }
