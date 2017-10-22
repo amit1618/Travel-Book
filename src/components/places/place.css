@@ -6,6 +6,10 @@
 {
   margin-top: 10px;
 }
+.recharts-cartesian-axis-tick-value
+{
+  fill: blanchedalmond;
+}
 .carousel .item{
     height: 400px;
 }

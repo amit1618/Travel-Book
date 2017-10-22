@@ -34,6 +34,12 @@ export default class Overview extends React.Component {
                       Throughout the year
                     </p>
                   </div>
+                  <div class="col-xs-12 nopaddingLeft">            
+                    <p class="objText"> <span class="glyphicon glyphicon-piggy-bank glyphForInfo"></span> 
+                      <span>Budget Per Day: </span>
+                      3K
+                    </p>
+                  </div>
                 </div>
               </div>     
             </div> 

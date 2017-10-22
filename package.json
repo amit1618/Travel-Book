@@ -12,6 +12,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
     "react-stars": "^2.2.4",
+    "react-uikit-button": "^2.0.2",
     "react-uikit-comment": "^2.0.2",
     "reactstrap": "^5.0.0-alpha.3",
     "recharts": "^1.0.0-alpha.6"
@@ -42,5 +43,5 @@
   "bugs": {
     "url": "https://github.com/amit1618/Travel-Book/issues"
   },
-  "homepage": ""
+  "homepage": "/TravelBook/"
 }
