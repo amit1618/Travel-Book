@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardBody, Button, ButtonGroup, CardTitle,CardSubtitle, CardText, CardImg } from 'reactstrap';
 import Avatar from 'react-toolbox/lib/avatar'
 import Lightbox from 'lightbox-react';
-import ImgGroup from 'react-uikit-img-gallery';
 import LikeCommentButtons from './likeAndComment.js'
 import './feed.css'
   var images = [
