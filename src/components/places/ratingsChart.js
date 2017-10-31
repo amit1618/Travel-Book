@@ -1,53 +1,50 @@
-import { BarChart,XAxis,YAxis,Bar,CartesianGrid, Tooltip, Legend } from 'recharts';
-import { PieChart, Pie, Sector, Cell  } from 'recharts';
-
 import React from 'react'
+var ZingChart = require('zingchart-react').core;
 
-const data = [
-      {name: 'Must Visit', value: 45},
-      {name: 'Awsome', value: 20},
-      {name: 'Great Place', value: 27},
-      {name: 'One time Visit', value: 5},
-      {name: 'Poor', value: 1},
-];
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
-const RADIAN = Math.PI / 180;                    
-const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
-  const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-  const x  = cx + radius * Math.cos(-midAngle * RADIAN);
-  const y = cy  + radius * Math.sin(-midAngle * RADIAN);
- 
-  return (
-    <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'}  dominantBaseline="central">
-      {`${(percent * 100).toFixed(0)}`}
-    </text>
-  );
+var myConfig = {
+  "type": "hbar",
+  "plot": {
+    "border-radius": "9px",
+    "styles": ["#43A19E", "#7B43A1", "#F2317A", "#FF9824", "#58CF6C"],
+    "valueBox": [{
+      "text": "%v",
+      "placement": "top"
+    }]
+  },
+  "background-color": "#f2f2f2",
+  "plotarea": {
+    "margin": "dynamic dynamic dynamic dynamic"
+  },
+  "scale-x": {
+    "labels": ["Poor", "Average", "Good", "Must Visit", "Insane"],
+    "tick": {
+      "visible": false
+    },
+    "guide": {
+      "visible": false
+    }
+  },
+  "scale-y": {
+    "label": {
+      "text": "Ratings"
+    },
+    "tick": {
+      "visible": false
+    },
+    "guide": {
+      "visible": false
+    }
+  },
+  "series": [{
+    "values": [35, 42, 67, 89, 25]
+  }]
 };
-
 export default class RatingsGraph extends React.Component {
-  render () {
-    return(
-        <PieChart width={200} height={150} onMouseEnter={this.onPieEnter}>
-        <Pie
-          data={data} 
-          cx={100} 
-          cy={100} 
-          startAngle={180}
-          endAngle={0}
-          labelLine={false}
-          innerRadius={60}
-          outerRadius={80} 
-          fill="#8884d8"
-          label={renderCustomizedLabel}
-          paddingAngle={5}
+ render () {
+         return (
           
-          >
-          {
-            data.map((entry, index) => <Cell fill={COLORS[index % COLORS.length]}/>)
-          }
-        </Pie>
-        <Tooltip/>
-        </PieChart>
-      )
-  }
+          <ZingChart id="myChart" height="200" width="100%" data={myConfig} />
+         
+         )
+      }
 }
