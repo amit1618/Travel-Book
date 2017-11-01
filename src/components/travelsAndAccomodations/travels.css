@@ -1,0 +1,23 @@
+.etched{
+	border-top:1px solid rgba(0,0,0,0.2) !important;	
+	border-bottom:1px solid rgba(0,0,0,0.2) !important;
+	position:relative !important;
+	box-shadow:1px 1px 2px -1px #000 !important;
+}
+.etched:nth-child(n+2){
+	border-top:0 !important;
+}
+.etched:after{
+	content:'' !important;
+	position:absolute !important;
+	top:0 !important;
+	left:0 !important;
+	right:0 !important;
+	bottom:0 !important;
+	z-index:1000 !important;		
+	border-radius:0 !important;
+	border-top:1px solid rgba(255,255,255,0.1) !important;	
+}
+.etched:hover:after{
+	background-color:rgba(255,255,255,0.1) !important;
+}

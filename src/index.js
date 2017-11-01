@@ -8,6 +8,7 @@ import HomePage from './components/homepage/homepage.js'
 import Place from './components/places/place.js'
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './app.css'
+import 'font-awesome/css/font-awesome.min.css'
 import 'react-image-gallery/styles/css/image-gallery.css'
 
 ReactDOM.render(<NavBar />, document.getElementById('navbar'))
