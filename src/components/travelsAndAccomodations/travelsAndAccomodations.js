@@ -8,7 +8,7 @@ export default class TravelAndAccomodation extends React.Component {
       <div class="row">
         <div class="panel panel-info etched">
           <div class="panel-heading">Travel & Accomodation</div>
-          <div class="panel-body">
+          <div class="panel-body bodyPadding">
             <div class="col-xs-12">
                 <p><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;Flights</p>
                 <a href="#" class="btn btn-default btn-sm"><span class="text-warning">Make My Trip</span></a>

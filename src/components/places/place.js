@@ -10,6 +10,7 @@ import PlaceImages from './placeImages.js'
 import PlacesToVisitList from './placesToVisitList.js'
 import ReviewsList from './placesReviews.js'
 import TipsNHacks from './tipsNHacks.js'
+import Maps from '../maps/map.js'
 
 export default class Place extends React.Component {
   render() {
@@ -27,10 +28,11 @@ export default class Place extends React.Component {
           </div>
           <div class="col-md-9">
             <PlaceImages />
-            <div class="col-md-4">
+            <div class="col-md-6">
               <TipsNHacks />
+              <Maps />
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
               <ReviewsList />
             </div>
            
