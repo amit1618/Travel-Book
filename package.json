@@ -14,6 +14,7 @@
     "react-event-timeline": "^1.4.0",
     "react-grid-gallery": "^0.4.6",
     "react-image-gallery": "^0.8.3",
+    "react-items-carousel": "^2.2.1",
     "react-router-dom": "^4.2.2",
     "react-sanfona": "^1.0.3",
     "react-scripts": "1.0.14",
@@ -21,6 +22,7 @@
     "react-toolbox": "^2.0.0-beta.12",
     "react-uikit-button": "^2.0.2",
     "react-uikit-comment": "^2.0.2",
+    "react-uikit-img-gallery": "^2.0.3",
     "reactstrap": "^5.0.0-alpha.3",
     "zingchart": "^2.6.1",
     "zingchart-react": "^1.0.6"

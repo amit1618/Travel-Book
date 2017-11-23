@@ -24,7 +24,7 @@ export default class HomePage extends React.Component {
         </div>
           */
         }
-        <div class="col-md-3">
+        <div class="col-md-3 zeroPaddingLeft">
            <TripOverview />
         </div>
         <div class="col-md-6">

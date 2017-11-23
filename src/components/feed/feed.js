@@ -4,6 +4,8 @@ import Avatar from 'react-toolbox/lib/avatar'
 import Lightbox from 'lightbox-react';
 import LikeCommentButtons from './likeAndComment.js'
 import './feed.css'
+import ImgGroup from 'react-uikit-img-gallery';
+
   var images = [
             'http://lorempixel.com/400/400/',
             'http://lorempixel.com/500/700/',
@@ -55,24 +57,15 @@ export default class Feed extends React.Component {
                     </CardBody>
        
                     <div id="feed" onClick={this.myClick}>
-                        <div class="row imagetiles">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fixOverlayDiv">
-                                <img src="https://static2.tripoto.com/media/filter/nt/img/186426/TripDocument/1480004793_img_20160915_151155.jpg" class="img-responsive" />
-                                <div class="centered"></div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fixOverlayDiv">
-                                <img src="https://static2.tripoto.com/media/filter/nt/img/186426/TripDocument/1480004793_img_20160915_151155.jpg" class="img-responsive" />
-                                <div class="centered"></div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fixOverlayDiv">
-                                <img src="https://static2.tripoto.com/media/filter/nt/img/186426/TripDocument/1480004793_img_20160915_151155.jpg" class="img-responsive" />
-                                <div class="centered"></div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fixOverlayDiv">
-                                <img src="https://static2.tripoto.com/media/filter/nt/img/186426/TripDocument/1480004793_img_20160915_151155.jpg" class="img-responsive" />
-                                <div class="centered">+4</div>
-                            </div>
-                        </div>
+                        <ImgGroup
+                          items={[
+                            {src: 'http://lorempixel.com/800/800/', margin: 'bottom right'},
+                            {src: 'https://static2.tripoto.com/media/filter/nt/img/186426/TripDocument/1480004793_img_20160915_151155.jpg', margin: 'bottom right'}
+
+
+                          ]}
+                        />
+                        <div class="centered">+4</div>
                     </div>
                     <LikeCommentButtons />
                 </Card>

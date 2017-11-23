@@ -17,8 +17,8 @@ export default class NavBar extends React.Component {
     <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
-            <li><a href="#">My Places</a></li>
-            <li><a href="/places">Explore</a></li>
+            <li><a href="/places">My Places</a></li>
+            <li><a href="/explore">Explore</a></li>
         </ul>
         <form class="navbar-form navbar-left formheight" role="search" _lpchecked="1">
                       <div class="form-group">
